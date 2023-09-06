@@ -144,9 +144,9 @@ def blackjack_hand_greater_than(hand_1, hand_2):
     return total_1 <= 21 and (total_1 > total_2 or total_2 > 21)
 
 # Test cases
-print(blackjack_hand_greater_than(['K'], ['3', '4']))  # Output: True
-print(blackjack_hand_greater_than(['K'], ['10']))     # Output: False
-print(blackjack_hand_greater_than(['K', 'K', '2'], ['3']))  # Output: False
+print(blackjack_hand_greater_than(['K'], ['3', '4']))  
+print(blackjack_hand_greater_than(['K'], ['10']))    
+print(blackjack_hand_greater_than(['K', 'K', '2'], ['3']))  
 pass
 
 # Check your answer
